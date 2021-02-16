@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.btn-calc {
+  color:#fff;
+  background-color:#4a90e2;
+  border-color:#4a90e2;
+  border-radius:15px
+}
+
+.btn-calc:hover {
+  color:#fff;
+  background-color:#4a90e2;
+  border-color:#4a90e2
+}
+
+#formulario {
+  border: 1px solid #ececec;
+  box-shadow: 2px 2px 4px 0 rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+label{
+  font-size:1rem!important;
+  font-weight:400
+}
+
+label>span {
+  padding: 1rem
+}
+
+.input-group-append label, .input-group-append span, .input-group-prepend span{
+  background-color:#f2f2f2
+}
+
+input[type=radio] {
+  margin-right:.5rem;
+  margin-left:.5rem
+}
+
+.btn-primary {
+  color:#fff;
+  background-color:#4a90e2;
+  border-color:#4a90e2;
+  border-radius:500px
+}
+
+.btn-primary:hover {
+  color:#fff;
+  background-color:#4a90e2;
+  border-color:#4a90e2
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+};
