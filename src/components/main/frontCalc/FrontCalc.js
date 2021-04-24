@@ -6,11 +6,14 @@ function FrontCalc() {
     const [quantity, setQuantity] = useState(0);
 
     useEffect(() => {
-        fetch('https://api-dolar-argentina.herokuapp.com/api/dolaroficial')
+        fetch(' https://calctax.herokuapp.com/https://api-dolar-argentina.herokuapp.com/api/dolaroficial')
             .then(res => res.json())
-            .then(res => {
-                setPrice(res)
+            .then(res => {setPrice(res)
+            })
+            .catch(function(error) {
+            console.log('Looks like there was a problem: \n', error);
             });
+            
     }, []);
 
     function onInput(evt) {
